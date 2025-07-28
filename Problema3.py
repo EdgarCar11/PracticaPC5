@@ -30,7 +30,7 @@ file_path = os.path.join(extract_folder, files[0])
 # Leer el archivo .tsv 
 df = pd.read_csv(file_path, sep='\t')
 
-# 4. Asignar los nombres de columna 
+# Asignar los nombres de columna 
 column_names = [
     'VideoID', 'Uploader', 'Age', 'Category', 'Length', 'Views', 'Rate', 'Ratings', 
     'Comments', 'RelatedIDs'
